@@ -1,6 +1,6 @@
 # Exemplo _Spring Boot_ interagindo com Banco de Dados
 
-Começando com o Spring Boot abordando _JPA/Hibernate_ com Banco de Dados __H2__.
+Começando com o _Spring Boot_ parte 2 abordando _Spring Data_ e _JPA/Hibernate_ com Banco de Dados __H2__.
 
 Para iniciar basta executar o comando:
 ```bash
