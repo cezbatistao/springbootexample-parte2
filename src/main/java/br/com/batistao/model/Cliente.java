@@ -41,6 +41,7 @@ public class Cliente {
     private List<Pedido> pedidos;
 
     Cliente() {
+        // default constructor
     }
 
     public Cliente(String nome, Date dataNascimento, String email) {

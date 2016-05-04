@@ -40,6 +40,7 @@ public class Produto {
     private List<ItemPedido> itensPedido;
 
     Produto() {
+        // default constructor
     }
 
     public Produto(String nome, String descricao, Double preco) {

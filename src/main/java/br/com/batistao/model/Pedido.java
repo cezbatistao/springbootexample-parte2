@@ -36,6 +36,7 @@ public class Pedido {
     private List<ItemPedido> itensPedido;
 
     Pedido() {
+        // default constructor
     }
 
     public Pedido(Cliente cliente) {

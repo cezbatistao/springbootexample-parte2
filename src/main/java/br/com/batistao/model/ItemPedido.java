@@ -36,6 +36,7 @@ public class ItemPedido {
     private Produto produto;
 
     ItemPedido() {
+        // default constructor
     }
 
     public Long getId() {
