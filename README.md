@@ -1,6 +1,6 @@
-# Exemplo inicial Spring Boot
+# Exemplo _Spring Boot_ interagindo com Banco de Dados
 
-Começando com o Spring Boot, exemplo com configuração inicial utilizando Maven.
+Começando com o Spring Boot abordando _JPA/Hibernate_ com Banco de Dados __H2__.
 
 Para iniciar basta executar o comando:
 ```bash
