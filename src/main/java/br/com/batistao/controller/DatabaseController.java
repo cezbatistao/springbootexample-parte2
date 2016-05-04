@@ -61,4 +61,12 @@ public class DatabaseController {
 
         return "Sucesso na compra do produto: " + produto.getNome() + "\n";
     }
+
+    @RequestMapping(value = "/compras/{email}", method = RequestMethod.GET)
+    public String comprar(@PathVariable String email) {
+        System.out.println("Email do cliente: "+email);
+        Cliente cliente = clienteRepository.findByEmail(email);
+
+        return cliente + "\n";
+    }
 }

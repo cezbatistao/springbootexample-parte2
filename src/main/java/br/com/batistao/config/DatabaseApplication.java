@@ -10,12 +10,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 /**
  * Created by ceb on 30/04/16.
  */
-@Configuration
-@ComponentScan(basePackages = "br.com.batistao")
 @EntityScan(basePackages = "br.com.batistao.model")
 @EnableJpaRepositories(basePackages = "br.com.batistao.repository")
-@EnableAutoConfiguration
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "br.com.batistao")
 public class DatabaseApplication {
 
     public static void main(String[] args) throws Exception {

@@ -111,4 +111,14 @@ public class Pedido {
     public void setItensPedido(List<ItemPedido> itensPedido) {
         this.itensPedido = itensPedido;
     }
+
+    @Override
+    public String toString() {
+        return "Pedido{" +
+                "id=" + id +
+                ", data=" + data +
+                ", valorTotal=" + valorTotal +
+                ", itensPedido=" + itensPedido +
+                '}';
+    }
 }

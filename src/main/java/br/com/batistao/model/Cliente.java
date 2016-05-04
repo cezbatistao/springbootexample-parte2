@@ -89,4 +89,16 @@ public class Cliente {
     public void setPedidos(List<Pedido> pedidos) {
         this.pedidos = pedidos;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", dataNascimento=" + dataNascimento +
+                ", email='" + email + '\'' +
+                ", pedidos=" + pedidos +
+                '}';
+    }
 }
+
