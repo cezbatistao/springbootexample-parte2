@@ -12,4 +12,4 @@ Depois acessar:
 - [http://localhost:8080/supermercado/comprar/comprar/{idCliente}/{idProduto}/{quantidade}](http://localhost:8080/supermercado/comprar/comprar/{idCliente}/{idProduto}/{quantidade}) informando os parametros para criar um registro de Pedido;
 - [http://localhost:8080/supermercado/compras/{email}/](http://localhost:8080/supermercado/compras/{email}/) informando o email do cliente obtém o registro dele com todos os pedidos efetuados.
 
-Para mais detalhes verificar artigo: Começando com o Spring Boot – Parte 2
+Para mais detalhes verificar artigo: [Começando com o Spring Boot – Parte 2](https://cezbatistao.wordpress.com/2016/05/05/comecando-com-o-spring-boot-parte-2/)
